@@ -8,14 +8,14 @@ const holdTime = totalTime / 3;
 breathAnimation();
 
 function breathAnimation() {
-  text.innerText = 'Breathe in for me Mahal...';
+  text.innerText = 'Breathe in for me Mahal... yeah just like that...';
   container.className = 'container grow';
 
   setTimeout(() => {
-    text.innerText = 'Mahal hold it in for me...';
+    text.innerText = 'Mahal hold it in for me...hold it in...';
 
     setTimeout(() => {
-      text.innerText = 'Breathe out Mahal ko... mmmmmhhhhhh';
+      text.innerText = 'Breathe out Mahal ko... mmmmmhhhhhh good girl...';
       container.className = 'container shrink';
     }, holdTime);
   }, breatheTime);
