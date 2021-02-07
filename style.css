@@ -42,10 +42,10 @@ body {
 .gradient-circle {
   background: conic-gradient(
     #5b319e 0%,
-    #5b319e 40%,
-    rgb(162, 151, 211) 40%,
-    rgb(162, 151, 211) 60%,
-    #3028a1 60%,
+    #5b319e 33.3%,
+    rgb(162, 151, 211) 33.3%,
+    rgb(162, 151, 211) 66.6%,
+    #3028a1 66.6%,
     #3028a1 100%
   );
   height: 320px;
@@ -71,7 +71,7 @@ body {
   left: 140px;
   width: 20px;
   height: 190px;
-  animation: rotate 7.5s linear forwards infinite;
+  animation: rotate 12s linear forwards infinite;
   transform-origin: bottom center;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .container.grow {
-  animation: grow 3s linear forwards;
+  animation: grow 4s linear forwards;
 }
 
 @keyframes grow {
@@ -100,7 +100,7 @@ body {
 }
 
 .container.shrink {
-  animation: shrink 3s linear forwards;
+  animation: shrink 4s linear forwards;
 }
 
 @keyframes shrink {
