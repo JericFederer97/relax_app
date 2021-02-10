@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,7 +8,8 @@
 body {
   background: #180341 url('./img/bg.png') no-repeat center center/cover;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Gruppo', cursive;
   min-height: 100vh;
   overflow: hidden;
   display: flex;
@@ -15,6 +17,31 @@ body {
   align-items: center;
   margin: 0;
   text-align: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1px;
+}
+
+.rina {
+  margin-top: 65px;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.ticia {
+  font-size: 20px;
+}
+
+.mahal {
+  margin-left: 10px;
+}
+
+.katakana {
+  font-size: 15px; 
+  line-height:1px;
 }
 
 .container {
