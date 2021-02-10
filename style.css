@@ -113,7 +113,7 @@ body {
   }
 }
 
-/* @media(max-width: 500px) {
+@media(max-width: 500px) {
   h1 {
     padding: 20px 30px 0;
     font-size: 20px;
@@ -132,10 +132,10 @@ body {
   .gradient-circle {
     background: conic-gradient(
       #5b319e 0%,
-      #5b319e 40%,
-      rgb(162, 151, 211) 40%,
-      rgb(162, 151, 211) 60%,
-      #3028a1 60%,
+      #5b319e 33.3%,
+      rgb(162, 151, 211) 33.3%,
+      rgb(162, 151, 211) 66.6%,
+      #3028a1 66.6%,
       #3028a1 100%
     );
     height: 220px;
@@ -149,10 +149,10 @@ body {
 
   .pointer-container {
     position: absolute;
-    top: 55px;
-    left: 55px;
-    width: 55px;
-    height: 55px;
-    animation: rotate 7.5s linear forwards infinite;
+    top: -40px;
+    left: 90px;
+    width: 20px;
+    height: 140px;
+    animation: rotate 12s linear forwards infinite;
     transform-origin: bottom center;
-}  */
+}
